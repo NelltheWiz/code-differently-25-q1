@@ -297,4 +297,9 @@ public class Library {
         + guestsById
         + '}';
   }
+
+  public void addItem(MediaItem item) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'addItem'");
+  }
 }
