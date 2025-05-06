@@ -1,8 +1,5 @@
 package com.codedifferently.lesson26.library;
 
-import com.codedifferently.lesson26.library.exceptions.MediaItemCheckedOutException;
-import com.codedifferently.lesson26.library.search.CatalogSearcher;
-import com.codedifferently.lesson26.library.search.SearchCriteria;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -10,6 +7,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
+
+import com.codedifferently.lesson26.library.exceptions.MediaItemCheckedOutException;
+import com.codedifferently.lesson26.library.search.CatalogSearcher;
+import com.codedifferently.lesson26.library.search.SearchCriteria;
 
 /** Represents a library. */
 public class Library {
@@ -301,5 +302,10 @@ public class Library {
   public void addItem(MediaItem item) {
     // TODO Auto-generated method stub
     throw new UnsupportedOperationException("Unimplemented method 'addItem'");
+  }
+
+  public boolean deleteItem(UUID id2) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'deleteItem'");
   }
 }
